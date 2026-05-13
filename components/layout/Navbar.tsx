@@ -7,7 +7,6 @@ export default function Navbar() {
     <header className={styles.navbar}>
       <Link href="/" className={styles.logo}>
       <Image src="/Logo.jpeg" alt="UMLStudio logo" width={32} height={32} />
-
         <span className={styles.logoText}>
           <span className={styles.logoDark}>UML</span>
           <span className={styles.logoAccent}>Studio</span>

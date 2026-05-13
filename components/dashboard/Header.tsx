@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.actions}>
-       
+
         <button className={styles.newBtn}>
           <BsPlusLg size={16} />
           <span>Nouveau diagramme</span>
@@ -22,6 +22,7 @@ export default function Header() {
 
         <div className={styles.avatar}>MN</div>
       </div>
+      
     </header>
   );
 }
